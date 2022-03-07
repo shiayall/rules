@@ -157,5 +157,5 @@ DOMAIN-SUFFIX,thestationbymaker.com
 DOMAIN-SUFFIX,thisispolaris.com
 DOMAIN-SUFFIX,watchdisneyfe.com
 DOMAIN-SUFFIX,watchespn.com
-PROCESSNAME,com.disney.datg.videoplatforms.android.abc
-PROCESSNAME,com.disney.disneyplus
+PROCESS-NAME,com.disney.datg.videoplatforms.android.abc
+PROCESS-NAME,com.disney.disneyplus
