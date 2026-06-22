@@ -210,6 +210,7 @@ function main(config) {
     "apple-cn": { type: "http", behavior: "domain", format: "mrs", interval: 604800, path: "./ruleset/apple-cn.mrs", url: GH + "/geosite/apple-cn.mrs" },
     "microsoft-cn": { type: "http", behavior: "domain", format: "mrs", interval: 604800, path: "./ruleset/microsoft-cn.mrs", url: GH + "/geosite/microsoft@cn.mrs" },
     "steam-cn": { type: "http", behavior: "domain", format: "mrs", interval: 604800, path: "./ruleset/steam-cn.mrs", url: GH + "/geosite/steam@cn.mrs" },
+    "epicgames-cn": { type: "http", behavior: "domain", format: "mrs", interval: 604800, path: "./ruleset/epicgames-cn.mrs", url: GH + "/geosite/epicgames@cn.mrs" },
     "cn": { type: "http", behavior: "domain", format: "mrs", interval: 604800, path: "./ruleset/cn.mrs", url: GH + "/geosite/cn.mrs" },
   };
   
@@ -238,6 +239,7 @@ function main(config) {
     "RULE-SET,apple-cn,DIRECT",
     "RULE-SET,microsoft-cn,DIRECT",
     "RULE-SET,steam-cn,DIRECT",
+    "RULE-SET,epicgames-cn,DIRECT",
     "RULE-SET,youtube,油管视频",
     "RULE-SET,netflix,奈飞",
     "RULE-SET,tiktok,TikTok",
