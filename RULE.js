@@ -114,8 +114,8 @@ function main(config) {
   const jpNodes = filterNodes(/日|jp|japan/i);
   const sgNodes = filterNodes(/新加坡|狮城|sg|singapore/i);
   const usNodes = filterNodes(/美|us|united\.states/i);
-  const euNodes = filterNodes(/欧|eu|europe|欧洲|de|德国|fr|法国|nl|荷兰|it|意大利|es|西班牙|se|瑞典|ch|瑞士|英|uk|united kingdom|britain|gb/i);
-  const otherNodes = filterNodes(/韩|kr|korea|俄|ru|russia|土|tr|turkey|印|in|india|加|ca|canada|澳|au|australia|马|my|malaysia|阿|ar|argentina|br|brazil|巴西/i);
+  const euNodes = filterNodes(/德国|法国|英国/i);
+  const otherNodes = filterNodes(/韩国/i);
 
   const hkFinal = hkNodes.length > 0 ? hkNodes : autoNodes;
   const twFinal = twNodes.length > 0 ? twNodes : autoNodes;
